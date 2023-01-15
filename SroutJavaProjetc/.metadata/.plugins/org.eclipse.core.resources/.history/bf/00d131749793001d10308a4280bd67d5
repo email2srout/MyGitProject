@@ -1,0 +1,28 @@
+package PropertiesFile;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class ReadPropertiesFile {
+
+	public static void main(String[] args) {
+		
+	try {
+		Properties p = new Properties();
+		String proPath = System.getProperty("user.dir");
+		System.out.println(proPath);
+		FileInputStream fis = new FileInputStream(proPath+"/src/test/resources/configProperties/config.properties");
+		p.load(fis);
+		String val = p.getProperty("Firefox");
+		System.out.println(val);
+	}catch(Exception e)
+	{
+		e.printStackTrace();
+	}
+		
+
+	}
+
+}

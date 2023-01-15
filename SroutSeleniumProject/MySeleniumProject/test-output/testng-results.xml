@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-10T16:26:52 IST" name="Suite" finished-at="2022-12-10T16:27:00 IST" duration-ms="7235">
+    <groups>
+    </groups>
+    <test started-at="2022-12-10T16:26:52 IST" name="Test" finished-at="2022-12-10T16:27:00 IST" duration-ms="7235">
+      <class name="TestScriptsClass.TestBaseClass">
+        <test-method signature="callbrowserdriver()[pri:0, instance:TestScriptsClass.TestBaseClass@5119fb47]" started-at="2022-12-10T16:26:53 IST" name="callbrowserdriver" finished-at="2022-12-10T16:27:00 IST" duration-ms="7203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callbrowserdriver -->
+      </class> <!-- TestScriptsClass.TestBaseClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
